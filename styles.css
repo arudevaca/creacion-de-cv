@@ -1,0 +1,101 @@
+/* 
+1.Diseño General y Layout (5 puntos):
+Utiliza propiedades de diseño en bloque o flexbox para organizar las diferentes secciones de tu CV.
+Asegúrate de que el diseño sea responsivo para diferentes tamaños de pantalla.
+
+2.Tipografía y Colores (3 puntos):
+Aplica una paleta de colores consistente para texto, encabezados, y fondos.
+Utiliza al menos dos fuentes diferentes (una para encabezados y otra para el cuerpo del texto).
+Estilización de Elementos de la Página (3 puntos):
+
+3.Aplica estilos a las listas de experiencia laboral y educación, asegurándote de que sean visualmente atractivas.
+Estiliza el enlace del footer para que se destaque en la página.
+Añadir una Imagen (2 puntos):
+
+Incluye una imagen de perfil en el encabezado o en una sección dedicada.*/ 
+.info-container{
+    display: inline-flex;
+}
+img{
+    height: 200px;
+    width: 180px;
+}
+.imagen-perfil{
+    height: 180px;
+    width: 170px;
+}
+.info{
+    margin: 0px 20px;
+}
+h5{
+    font-size: medium;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color:  #d3e5e9;
+    margin: 50px auto;
+}
+.container{
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 30px 50px;
+    background-color: white;
+    border-radius: 25px;
+}
+header{
+    /*display: flexbox;*/
+    /*text-align: center;*/
+}
+h1{
+    color: mediumblue;
+}
+.profesion{
+    color: black;
+}
+.breve-descripcion{
+    text-align: justify;
+    /*margin-left: auto;
+    margin-right: auto;
+    width: 60%;*/
+}
+section{
+    justify-content: center;
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 60%;*/
+}
+.puesto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 10px;
+}
+h3{
+    color: mediumblue;
+}
+.lugar-trabajo{
+    font-style: italic;
+}
+.habilidades h4{ 
+    color: mediumblue;
+}
+footer{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.habilidades{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px ;
+}
+footer{
+    margin: 30px auto 10px;
+}
+
+
