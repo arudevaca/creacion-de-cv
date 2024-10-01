@@ -17,12 +17,8 @@ Incluye una imagen de perfil en el encabezado o en una sección dedicada.*/
     display: inline-flex;
 }
 img{
-    height: 200px;
-    width: 180px;
-}
-.imagen-perfil{
     height: 180px;
-    width: 170px;
+    width: 180px;
 }
 .info{
     margin: 0px 20px;
